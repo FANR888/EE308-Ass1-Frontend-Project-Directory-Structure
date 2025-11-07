@@ -73,12 +73,16 @@
 - 避免使用内联样式。
 
 ### 3.2 命名规范
-- 类名使用 'kebab-case'，语义清晰。例如：'.highlight', '.drag-handle', '.text-cell'。
+- 类名使用 `kebab-case`，语义清晰。例如：`.highlight`, `.drag-handle`, `.text-cell`。
 - 统一字体为 "Microsoft Yahei"，确保中文可读性。
 - 避免使用无语义命名（如 .box1, .div2）。
 
-
-
+### 3.3 排版与层次
+推荐属性顺序：
+- 布局属性（`display`, `position`, `margin`, `padding`）
+- 盒模型属性（`width`, `height`, `border`, `box-sizing`）
+- 文本样式（`font`, `color`, `line-height`）
+- 背景与特效（`background`, `transition`, `box-shadow`）
 
 
 
