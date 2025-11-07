@@ -10,13 +10,14 @@
 
 ## 📂 目录结构
 ```bash
-832301220_contacts_frontend/
-├── src/
-│ ├── contacts.html
-│ ├── css/
-│ │ ├── style.css
-│ ├── js/
-│ │ └── script.js
+EE308-Ass1-Frontend-Project-Directory-Structure/
+│ 832301220_contacts_frontend/
+│ ├── src/
+│ │ ├── contacts.html
+│ │ ├── css/
+│ │ │ ├── style.css
+│ │ ├── js/
+│ │ │ └── script.js
 ├── README.md 
 └── codestyle.md
 ```
