@@ -9,7 +9,7 @@
 - 技术栈：HTML / CSS / JavaScript
 
 ## 📂 目录结构
-StudentID_contacts_frontend/
+832301220_contacts_frontend/
 ├── src/
 │ ├── contacts.html
 │ ├── css/
@@ -25,7 +25,7 @@ StudentID_contacts_frontend/
 git clone https://github.com/FANR888/EE308-Ass1-Frontend-Project-Directory-Structure.git
 
 ### 2️⃣ 进入项目目录
-cd EE308-Ass1-Frontend-Project-Directory-Structure/StudentID_contacts_frontend
+cd EE308-Ass1-Frontend-Project-Directory-Structure/832301220_contacts_frontend
 
 ### 3️⃣ 运行项目
 python manage.py runserver 0.0.0.0:8000
