@@ -9,6 +9,7 @@
 - 技术栈：HTML / CSS / JavaScript
 
 ## 📂 目录结构
+```bash
 832301220_contacts_frontend/
 ├── src/
 │ ├── contacts.html
@@ -17,7 +18,8 @@
 │ ├── js/
 │ │ └── script.js
 ├── README.md 
-└── codestyle.md 
+└── codestyle.md
+```
 
 ## 🚀 快速开始
 ```bash
