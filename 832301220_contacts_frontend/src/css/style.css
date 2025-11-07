@@ -1,0 +1,138 @@
+/* 页面整体样式 */
+body {
+  font-family: "Microsoft Yahei";   
+  margin: 40px;                 
+  background-color: #f8f9fa;     
+}
+
+/* 标题样式 */
+h1 {
+  text-align: center;            
+}
+
+/* 添加与搜索区域样式 */
+#add-section, #search-section {
+  margin-bottom: 20px;            
+  text-align: center;             
+}
+
+/* 输入框样式 */
+input {
+  margin: 5px;                   
+  padding: 5px;                
+  border: 1px solid #ccc;      
+  border-radius: 4px;      
+  box-sizing: border-box; 
+}
+
+/* 表格整体样式 */
+table {
+  width: 100%;      
+  border-collapse: collapse;     
+  background-color: #fff;     
+  border: 1px solid #ccc; 
+  table-layout: fixed;      
+}
+
+/* 表头与单元格通用样式 */
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;         
+  vertical-align: middle;       
+}
+
+/* 单元格细化样式 */
+td {
+  font-size: 13px;         
+  font-family: "Microsoft Yahei";
+  white-space: nowrap;          
+  overflow: hidden;      
+  text-overflow: ellipsis;        
+  line-height: 28px;        
+}
+
+/* 可编辑输入框样式 */
+td input {
+  width: 95%; 
+  border: none; 
+  background: transparent;
+  text-align: center;
+}
+
+/* 输入框聚焦时背景变浅蓝 */
+td input:focus {
+  outline: none;
+  background-color: #f0f9ff; 
+}
+
+/* 按钮样式 */
+button {
+  padding: 5px 10px;
+  margin: 3px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  transition: background-color 0.2s; 
+}
+
+/* 鼠标悬停时按钮变灰 */
+button:hover {
+  background-color: #ddd;
+}
+
+/* 拖拽手柄样式，用于排序 */
+.drag-handle {
+  cursor: move;
+  width: 30px;
+  text-align: center;
+  color: #888;
+  font-size: 18px;
+}
+
+/* 拖拽中行的样式*/
+tr.dragging {
+  opacity: 0.5;
+  background-color: #f1f1f1;
+}
+
+/* 搜索高亮文字样式 */
+.highlight {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  font-size: inherit;  
+  font-family: inherit; 
+  line-height: inherit;
+}
+
+/* 可编辑文本单元格外层容器 */
+.text-cell {
+  position: relative;
+}
+
+/* 隐藏输入文字但保留显示阴影以实现双层显示 */
+.text-cell input {
+  width: 95%;
+  border: none;
+  background: transparent;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: transparent;      
+  text-shadow: 0 0 0 #000;
+}
+
+/* 高亮层，用于显示搜索结果 */
+.highlight-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  text-align: center;
+  line-height: 28px; 
+  z-index: 2;
+  pointer-events: none;   
+}
