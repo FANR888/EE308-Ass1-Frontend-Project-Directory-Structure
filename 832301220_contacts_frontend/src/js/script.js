@@ -1,10 +1,6 @@
 const API_URL = "http://8.148.176.83:8000/contacts/";
 
-
-
-
 let allContacts = [];
-
 
 async function loadContacts() {
   const res = await fetch(API_URL);
@@ -12,7 +8,6 @@ async function loadContacts() {
   allContacts = data.results || []; 
   renderContacts(allContacts);     
 }
-
 
 // 渲染联系人表格
 function renderContacts(data) {
@@ -34,7 +29,6 @@ function renderContacts(data) {
 
     tbody.appendChild(tr);
   });
-
 
   addDragEvents(); // 绑定拖拽事件
 }
@@ -66,9 +60,6 @@ function renderContactsWithHighlight(data, keyword) {
 
   addDragEvents();
 }
-
-
-
 
 // 添加联系人
 async function addContact() {
@@ -206,7 +197,6 @@ function updateOrder() {
   body: JSON.stringify(allContacts.map((c, i) => ({ id: c.id, order: i })))
 });
 }
-
 
 //高亮文本
 function highlightText(text, keyword) {
