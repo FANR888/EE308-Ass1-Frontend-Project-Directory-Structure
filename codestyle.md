@@ -73,6 +73,29 @@
 - 避免使用内联样式。
 
 ### 3.2 命名规范
+- 类名使用 'kebab-case'，语义清晰。例如：'.highlight', '.drag-handle', '.text-cell'。
+- 统一字体为 "Microsoft Yahei"，确保中文可读性。
+- 避免使用无语义命名（如 .box1, .div2）。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
