@@ -20,9 +20,8 @@ StudentID_contacts_frontend/
 └── codestyle.md 
 
 ## 🚀 快速开始
-
-### 1️⃣ 克隆项目
 ```bash
+### 1️⃣ 克隆项目
 git clone https://github.com/FANR888/EE308-Ass1-Frontend-Project-Directory-Structure.git
 
 ### 2️⃣ 进入项目目录
