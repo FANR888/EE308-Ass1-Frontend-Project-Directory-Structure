@@ -23,12 +23,12 @@
 
 ## 🚀 快速开始
 ```bash
-### 1️⃣ 克隆项目
+1️⃣ 克隆项目
 git clone https://github.com/FANR888/EE308-Ass1-Frontend-Project-Directory-Structure.git
 
-### 2️⃣ 进入项目目录
+2️⃣ 进入项目目录
 cd EE308-Ass1-Frontend-Project-Directory-Structure/832301220_contacts_frontend
 
-### 3️⃣ 运行项目
+3️⃣ 运行项目
 python manage.py runserver 0.0.0.0:8000
 
